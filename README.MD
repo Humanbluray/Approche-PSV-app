@@ -133,27 +133,29 @@ SECRET_KEY=une_chaine_aleatoire
 
 # 📁 Structure du projet 
 
-pilotage-btp/
-├── src/
-│   ├── core/                     
-│   │   ├── entities/             
-│   │   ├── services/             
-│   │   └── interfaces/           
-│   ├── adapters/                 
-│   ├── ui/                       
-│   │   ├── pages/                
-│   │   └── components/           
-│   └── database/                 
-├── docs/                         
-│   ├── decisions/                
-│   ├── functional/               
-│   └── technical/                
-├── tests/                        
-├── assets/                       
-├── exports/                      
-├── graphs/                       
-├── .env.example                  
-├── main.py                       
-├── requirements.txt              
-├── README.md                     
-└── LICENSE                       
+```mermaid
+    pilotage-btp/
+    ├── src/
+    │   ├── core/                     
+    │   │   ├── entities/             
+    │   │   ├── services/             
+    │   │   └── interfaces/           
+    │   ├── adapters/                 
+    │   ├── ui/                       
+    │   │   ├── pages/                
+    │   │   └── components/           
+    │   └── database/                 
+    ├── docs/                         
+    │   ├── decisions/                
+    │   ├── functional/               
+    │   └── technical/                
+    ├── tests/                        
+    ├── assets/                       
+    ├── exports/                      
+    ├── graphs/                       
+    ├── .env.example                  
+    ├── main.py                       
+    ├── requirements.txt              
+    ├── README.md                     
+    └── LICENSE       
+```                
